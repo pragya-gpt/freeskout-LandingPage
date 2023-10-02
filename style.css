@@ -1,0 +1,402 @@
+*
+{
+    margin: 0px;
+    border: border-box;
+}
+.navbar
+{
+    background-color: #212529;
+    height: 76px;
+    padding: 8px 16px;
+}
+.navcontent
+{
+    height: 60px;
+    width: 960px;
+    margin: 15px 61px;
+    padding: 0px 15px;
+    position: fixed;
+    right: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo
+{
+    height: 50px;
+    width: 41px;
+    position: fixed;
+    left: 10%;
+    background-image: url(freeskout.png);
+    background-size: cover;
+}
+a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.75rem;
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    padding: 8px
+    
+}
+.tags
+{
+    width: 600px;
+    height: 50px;
+    position: fixed;
+    right: 10%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+a:hover
+{
+    color: rgba(255, 255, 255, 0.75);
+}
+body
+{
+    background-color: #212529;
+    display: flex;
+}
+.starsbox
+{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    z-index: -100;
+}
+.starsbox2
+{
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    z-index: -100;
+}
+.starsbox3
+{
+    position: absolute;
+    left: 700px;
+    bottom: 0px;
+    width: 100%;
+    height: 30%;
+    z-index: -100;
+}
+.starsbox4
+{
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+    width: 100%;
+    height: 30%;
+    z-index: -100;
+}
+.starsbox5
+{
+    position: absolute;
+    left: 700px;
+    bottom: 70%;
+    width: 100%;
+    height: 30%;
+    z-index: -100;
+}
+.star1
+{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    animation: starsani 15s linear 0s infinite normal;
+}
+.star2
+{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    animation: starsani 10s linear 0s infinite normal;
+}
+.star3
+{
+    height: 2.5px;
+    width: 2.5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    animation: starsani 20s linear 0s infinite normal;
+}
+.star4
+{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    animation: starsani 15s linear 0s infinite normal;
+}
+.star5
+{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 200px;
+    animation: starsani 10s linear 0s infinite normal;
+}
+.star6
+{
+    height: 2.5px;
+    width: 2.5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 300px;
+    animation: starsani 20s linear 0s infinite normal;
+}
+.star7
+{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 400px;
+    animation: starsani 15s linear 0s infinite normal;
+}
+.star8
+{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    animation: starsani 10s linear 0s infinite normal;
+}
+.star9
+{
+    height: 2.5px;
+    width: 2.5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 600px;
+    animation: starsani 20s linear 0s infinite normal;
+}
+.star10
+{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 700px;
+    animation: starsani 15s linear 0s infinite normal;
+}
+.star11
+{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    animation: starsani 10s linear 0s infinite normal;
+}
+.star12
+{
+    height: 2.5px;
+    width: 2.5px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 350px;
+    animation: starsani 20s linear 0s infinite normal;
+}
+@keyframes starsani
+{
+    from
+    {
+        bottom: 0px;
+    }
+    to
+    {
+        bottom: 600px;
+    }
+}
+.container
+{
+    height: 336px;
+    width: 540px;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+
+}
+.imagebox
+{
+    height: 380px;
+    width: 540px;
+    background-image: url(top-3.png);
+    background-size: cover;
+    position: fixed;
+    right: 10%;
+    top: 20%;
+    animation: appear 6s ease-out 0s 1 normal;
+}
+@keyframes appear
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0.25;
+    }
+    75%
+    {
+        opacity: 0.5;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+
+}
+.heading1
+{
+    height: 108px;
+    width: 450px;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin: 0px 0px 24px;
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    animation: glide 2s ease-out 0s 1 normal;
+}
+@keyframes glide
+{
+    0%
+    {
+        transform: translate(-1000px);
+        visibility: hidden;
+    }
+    100%
+    {
+        transform: translate(0px);
+    }
+}
+.heading2
+{
+    height: 76px;
+    width: 450px;
+    font-weight: lighter;
+    color: rgba(238, 238, 238, 0.75);
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    font-size: 1.1rem;
+    animation: glide 6s ease-out 0s 1 normal;
+
+}
+.button1
+{
+    height: 60px;
+    width: 210;
+    background-color: #1ADB80;
+    border-radius: 10px;
+    padding: 15px 36px;
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    color: #222222;
+    animation: upward 6s ease-out 0s 1 normal;
+}
+@keyframes upward
+{
+    0%
+    {
+        transform: translatey(1500px);
+        visibility: hidden;
+    }
+    50%
+    {
+        transform: translatey(50px);
+        visibility: hidden;   
+    }
+    100%
+    {
+        transform: translatey(0px);
+        visibility: visible;
+    }
+}
+
+.button2
+{
+    height: 60px;
+    width: 210px;
+    background-color: #1ADB80;
+    border-radius: 10px;
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    color: #222222;
+    margin:0px 0px 0px 12px;
+    padding: 15px 36px;
+    animation: upward 6s ease-out 0s 1 normal;
+
+}
+.wave
+{
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    opacity: 0.5;
+
+}
+@keyframes updown
+{
+    0%
+    {
+        height: 10%;
+    }
+    50%
+    {
+        height: 15%;
+    }
+    100%
+    {
+        height: 20%;
+    }
+}
+.wave1
+{
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    background-image: url(wave-mid.png);
+    background-size: cover;
+    opacity: 0.5;
+    animation: updown 2s linear 0s infinite normal;
+}
+.wave2
+{
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    background-image: url(wave-top.png);
+    background-size: cover;
+    opacity: 0.5;
+    animation: updown 2s linear 0s infinite normal;
+
+}
+
+
+
+
+
